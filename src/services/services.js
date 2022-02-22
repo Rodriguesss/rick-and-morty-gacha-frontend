@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://rick-and-morty-gacha.herokuapp.com/'
+const API_URL = 'https://rick-and-morty-gacha.herokuapp.com'
 
 function createConfig(token) {
   return { headers: { Authorization: `Bearer ${token}` } }
